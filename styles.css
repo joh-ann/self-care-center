@@ -6,3 +6,70 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #134D71;
+    background: #134D71;
+    background: linear-gradient(to bottom, #134D71 20%, #78A7C6 70%, #F7E4BF 100%);
+}
+
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: auto;
+    height: 10%;
+    width: 25%;
+    padding: 50px;
+}
+
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+.choices-container {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 38%;
+    transform: translateX(78%);
+}
+
+.choices {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.choices label {
+    width: 42%;
+}
+
+.button {
+    background-color: #134D71;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
