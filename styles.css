@@ -19,12 +19,21 @@ body {
     /* align-content: center; */
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    background: linear-gradient(#134D71, #78A7C6, #F7E4BF);
+    background: linear-gradient(#134D71 15%, #78A7C6, #F7E4BF);
     background-repeat: no-repeat;
 }
 
 .logo, h2 {
     color: #FFFFFF;
+}
+
+.logo {
+    margin-top: 40px;
+    font-size: 31px;
+}
+
+h2 {
+    font-size: 23px;
 }
 
 img {
@@ -35,21 +44,23 @@ img {
 .container {
     background-color: #FFFFFF;
     margin: auto;
-    width: 500px;
+    width: 550px;
     padding: 10px;
     border-radius: 10px;
+    font-style: italic;
+    font-size: 18px;
 }
 
 h2 {
-    margin-top: 100px;
+    margin-top: 94px;
 }
 
 .container2 {
     background-color: #FFFFFF;
     margin: auto;
     margin-top: 100px;
-    width: 700px;
-    padding: 50px;
+    width: 760px;
+    padding: 40px;
     border-radius: 10px;
 }
 
@@ -57,12 +68,13 @@ h2 {
     display: flex;
     margin: auto;
     margin-top: 20px;
-    padding-left: 35px;
+    padding-left: 26px;
     padding-right: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 175px;
-    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 190px;
+    font-size: 17px;
+    border-radius: 5px;
     background-color: #134d71;
     font-family: 'Quicksand', sans-serif;
     color: #FFFFFF;
@@ -72,12 +84,19 @@ h2 {
     cursor: pointer;
 }
 
-#aff:hover {
+#aff, #man {
+    transform: scale(1.4);
+}
+
+#aff:hover, #man:hover {
     cursor: pointer;
 }
 
-#man:hover {
-    cursor: pointer;
+#aff-font {
+    margin-right: 170px;
+    margin-left: 10px;
 }
 
-
+#man-font {
+    margin-left: 10px;
+}
