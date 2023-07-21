@@ -22,6 +22,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.hide {
+    display: none;
+}
+
 .logo, h2 {
     color: #FFFFFF;
 }
