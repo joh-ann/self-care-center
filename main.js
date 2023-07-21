@@ -1,6 +1,7 @@
 
 // load
 document.addEventListener("DOMContentLoaded", function() {
+    showLogin();
 });
 
 
@@ -49,7 +50,7 @@ loginForm.addEventListener("submit", function(event) {
 
     // get user name from input
     var nameInput = document.getElementById("name");
-    var userName = nameInput.ariaValueMax;
+    var userName = nameInput.value;
 
     showMain(userName);
 });
@@ -64,12 +65,17 @@ function displayRandomMsg(messages) {
 }
 
 function showLogin() {
-    mainContainer.style.display = "none";
-    loginContainer.style.display = "block";
+    mainContainer.classList.add("hide");
+    loginContainer.classList.remove("hide");
 }
 
 function showMain(userName) {
-    loginContainer.style.display = "none";
-    mainContainer.style.display = "block";
+    var greeting = document.createElement("h2");
+    greeting.textContent = `Hello, ${userName}! Welcome to the Self Care Center.`;
+    document.querySelector(".greeting").appendChild(greeting);
+
+    loginContainer.classList.add("hide");
+    mainContainer.classList.remove("hide");
 }
+
 
