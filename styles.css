@@ -7,9 +7,9 @@ white - #ffffff;
 black - #000000;
 */
 
-* {
+/* * {
     border: 1px solid green;
-}
+} */
 
 html {
     height: 100%;
@@ -82,11 +82,18 @@ h2 {
     background-color: #134d71;
     font-family: 'Quicksand', sans-serif;
     color: #FFFFFF;
+    border: none;
 }
 
 .button:hover {
+    background-color: #1167b1;
     cursor: pointer;
 }
+
+.button:active {
+    background-color: #134d71;
+}
+
 
 #aff, #man {
     transform: scale(1.4);
