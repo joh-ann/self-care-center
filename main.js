@@ -20,12 +20,16 @@ logo.addEventListener("click", function () {
 });
 
 affirmBtn.addEventListener("click", function () {
-
+    if (affirmBtn.checked) {
+        mantraBtn.checked = false;
+    }
 });
 
 
 mantraBtn.addEventListener("click", function () {
-
+    if (mantraBtn.checked) {
+        affirmBtn.checked = false;
+    }
 });
 
 receiveMsg.addEventListener("click", function () {
