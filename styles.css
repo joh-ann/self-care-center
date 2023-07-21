@@ -37,6 +37,7 @@ body {
 
 .logo:hover {
     cursor: pointer;
+    filter: hue-rotate(180deg);
 }
 
 h2 {
@@ -74,14 +75,14 @@ h2 {
 
 .button {
     margin: auto;
-    margin-top: 20px;
-    padding-left: 26px;
+    margin-top: 25px;
+    padding-left: 24px;
     padding-right: 0px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     display: flex;
     width: 190px;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 5px;
     background-color: #134d71;
     font-family: 'Quicksand', sans-serif;
@@ -114,4 +115,8 @@ h2 {
 
 #man-font {
     margin-left: 10px;
+}
+
+#medImg:hover {
+    filter: hue-rotate(180deg);
 }
