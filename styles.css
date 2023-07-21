@@ -16,7 +16,6 @@ html {
 }
 
 body {
-    /* align-content: center; */
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     background: linear-gradient(#134D71 15%, #78A7C6, #F7E4BF);
@@ -32,6 +31,10 @@ body {
     font-size: 31px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 h2 {
     font-size: 23px;
 }
@@ -45,7 +48,7 @@ img {
     background-color: #FFFFFF;
     margin: auto;
     width: 550px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     font-style: italic;
     font-size: 18px;
@@ -65,13 +68,13 @@ h2 {
 }
 
 .button {
-    display: flex;
     margin: auto;
     margin-top: 20px;
     padding-left: 26px;
     padding-right: 0px;
     padding-top: 3px;
     padding-bottom: 3px;
+    display: flex;
     width: 190px;
     font-size: 17px;
     border-radius: 5px;
