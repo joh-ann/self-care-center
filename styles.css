@@ -22,9 +22,9 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .hide {
+.hidden {
     display: none;
-} */
+}
 
 .logo, h2 {
     color: #FFFFFF;

@@ -41,10 +41,25 @@ receiveMsg.addEventListener("click", function () {
     }
   });
 
+enterBtn.addEventListener("click", function() {
+    var username = nameInput.value;
+    
+})
+
+
 // functions
 function displayRandomMsg(messages) {
     var randomIndex = Math.floor(Math.random() * messages.length);
     var message = messages[randomIndex]
 
     container2.innerHTML = `<p>${message}</p>`
+}
+
+function showIt(element) {
+    element.classlist.remove("hidden");
+}
+
+function hideIt(element) {
+    element.classlist.add("hidden");
+
 }
