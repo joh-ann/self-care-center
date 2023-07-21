@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-
 // elements
 var logo = document.getElementById("logo");
 var affirmBtn = document.getElementById("aff");
@@ -12,6 +11,8 @@ var mantraBtn = document.getElementById("man");
 var receiveMsg = document.querySelector(".button");
 var medImg = document.querySelector("medImg");
 var container2 = document.querySelector(".container2");
+var nameInput = document.querySelector("#username");
+var enterBtn = document.querySelector(".#enter");
 
 // event listeners
 // reload home page on click

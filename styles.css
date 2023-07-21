@@ -120,3 +120,35 @@ h2 {
 #medImg:hover {
     filter: hue-rotate(180deg);
 }
+
+#login-form {
+    background-color: #FFFFFF;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width:300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.username {
+    width: 110px;
+    display: flex;
+    align-self: center;
+}
+
+#enter {
+    width: 92px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#name {
+    margin: auto;
+    padding-right: 83px;
+    font-size: 12px;
+}
