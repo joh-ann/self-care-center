@@ -13,7 +13,8 @@ This is a Self Care Center app that displays a variety of positive affirmations 
 4. Launch the page `open index.html`
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+[x]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+![scc](https://github.com/joh-ann/self-care-center/assets/126308696/a348bb61-a7bf-45b2-bef3-905d85140a30)
 
 
 ### Context:
@@ -22,8 +23,8 @@ This project was assigned to us on July 18, and I completed it on July 22. I am 
 
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
-
+[x]: <> (Who worked on this application? Link to their GitHubs.)
+https://github.com/joh-ann
 
 ### Learning Goals:
 [x]: <> (What were the learning goals of this project? What tech did you work with?)
