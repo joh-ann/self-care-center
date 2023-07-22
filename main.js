@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
 var logo = document.getElementById("logo");
 var affirmBtn = document.getElementById("aff");
 var mantraBtn = document.getElementById("man");
-var receiveMsg = document.querySelector(".button");
+var receiveMsg = document.querySelector(".button2");
 var medImg = document.querySelector("medImg");
 var container2 = document.querySelector(".container2");
 var nameInput = document.querySelector("#username");
-var enterBtn = document.querySelector(".#enter");
+var enterBtn = document.querySelector(".button1");
+var loginView = document.querySelector(".login-view");
+var mainView = document.querySelector(".main-view")
 
 // event listeners
 // reload home page on click
@@ -41,11 +43,19 @@ receiveMsg.addEventListener("click", function () {
     }
   });
 
-enterBtn.addEventListener("click", function() {
-    var username = nameInput.value;
-    
-})
 
+
+enterBtn.addEventListener("click", function(event) {
+    event.preventDefault();
+    var enteredName = nameInput.value;
+
+    if (enteredName !== "") {
+        // greet(enteredName);
+        loadMain();
+    } else {
+        alert(`Please enter a valid name.`)
+    }
+});
 
 // functions
 function displayRandomMsg(messages) {
@@ -56,10 +66,14 @@ function displayRandomMsg(messages) {
 }
 
 function showIt(element) {
-    element.classlist.remove("hidden");
+    element.classList.remove("hidden");
 }
 
 function hideIt(element) {
-    element.classlist.add("hidden");
+    element.classList.add("hidden");
+}
 
+function loadMain() {
+    hideIt(loginView);
+    showIt(mainView);
 }

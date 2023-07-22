@@ -73,7 +73,7 @@ h2 {
     font-size: 24px;
 }
 
-.button {
+.button1 {
     margin: auto;
     margin-top: 25px;
     padding-left: 24px;
@@ -90,12 +90,29 @@ h2 {
     border: none;
 }
 
-.button:hover {
+.button2 {
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-right: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    width: 190px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #134d71;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button1:hover, .button2:hover {
     background-color: #1167b1;
     cursor: pointer;
 }
 
-.button:active {
+.button1:active, .button2:hover {
     background-color: #134d71;
 }
 
