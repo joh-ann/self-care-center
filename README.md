@@ -19,6 +19,8 @@ This is a Self Care Center app that displays a variety of positive affirmations 
 
 ### Context:
 [x]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently.
+
 This project was assigned to us on July 18, and I completed it on July 22. I am currently in week 3 of mod 1.
 
 
