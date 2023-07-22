@@ -1,7 +1,6 @@
 
 // load
 document.addEventListener("DOMContentLoaded", function() {
-
 });
 
 // elements
@@ -14,9 +13,9 @@ var container2 = document.querySelector(".container2");
 var nameInput = document.querySelector("#username");
 var enterBtn = document.querySelector(".button1");
 var loginView = document.querySelector(".login-view");
-var mainView = document.querySelector(".main-view")
+var mainView = document.querySelector(".main-view");
 var greetingMsg = document.getElementById("welcome");
-
+var nameReq = document.getElementById("#name-req")
 
 // event listeners
 // reload home page on click
@@ -49,9 +48,8 @@ receiveMsg.addEventListener("click", function () {
 enterBtn.addEventListener("click", function(event) {
     event.preventDefault();
     var enteredName = nameInput.value;
-    if (enteredName !== "") {
-        // greet(enteredName);
-        console.log(enteredName)
+    if (enteredName !== "" && isNaN(enteredName)) {
+        // console.log(enteredName)
         loadMain();
         greet(enteredName);
     } else {

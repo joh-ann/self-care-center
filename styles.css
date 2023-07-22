@@ -177,3 +177,13 @@ h3 {
     margin: auto;
     color: #FFFFFF;
 }
+
+.name-req {
+    margin: auto;
+    font-size: 9.5px;
+    font-style: italic;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
