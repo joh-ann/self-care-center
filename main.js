@@ -54,6 +54,9 @@ enterBtn.addEventListener("click", function(event) {
         greet(enteredName);
     } else {
         nameReq.style.visibility="visible"
+        setTimeout(function() {
+            nameReq.style.visibility="hidden";
+        }, 2000)
         // alert(`Please enter a valid name.`)
     }
 });
