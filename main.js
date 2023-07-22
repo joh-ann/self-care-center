@@ -15,6 +15,7 @@ var nameInput = document.querySelector("#username");
 var enterBtn = document.querySelector(".button1");
 var loginView = document.querySelector(".login-view");
 var mainView = document.querySelector(".main-view")
+var greetingMsg = document.getElementById("welcome");
 
 
 // event listeners
@@ -52,6 +53,7 @@ enterBtn.addEventListener("click", function(event) {
         // greet(enteredName);
         console.log(enteredName)
         loadMain();
+        greet(enteredName);
     } else {
         alert(`Please enter a valid name.`)
     }
@@ -78,4 +80,6 @@ function loadMain() {
     showIt(mainView);
 }
 
-// function greet()
+function greet(name) {
+    greetingMsg.innerText = `Namaste, ${name}`;
+}
