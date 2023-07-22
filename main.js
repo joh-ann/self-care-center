@@ -1,9 +1,6 @@
-
-// load
 document.addEventListener("DOMContentLoaded", function() {
 });
 
-// elements
 var logo = document.getElementById("logo");
 var affirmBtn = document.getElementById("aff");
 var mantraBtn = document.getElementById("man");
@@ -17,8 +14,7 @@ var mainView = document.querySelector(".main-view");
 var greetingMsg = document.getElementById("welcome");
 var nameReq = document.getElementById("name-req")
 
-// event listeners
-// reload home page on click
+
 logo.addEventListener("click", function () {
     location.reload();
 });
@@ -28,7 +24,6 @@ affirmBtn.addEventListener("click", function () {
         mantraBtn.checked = false;
     }
 });
-
 
 mantraBtn.addEventListener("click", function () {
     if (mantraBtn.checked) {
@@ -49,7 +44,6 @@ enterBtn.addEventListener("click", function(event) {
     event.preventDefault();
     var enteredName = nameInput.value;
     if (enteredName !== "" && isNaN(enteredName)) {
-        // console.log(enteredName)
         loadMain();
         greet(enteredName);
     } else {
@@ -57,15 +51,13 @@ enterBtn.addEventListener("click", function(event) {
         setTimeout(function() {
             nameReq.style.visibility="hidden";
         }, 2000)
-        // alert(`Please enter a valid name.`)
     }
 });
 
-// functions
 function displayRandomMsg(messages) {
     var randomIndex = Math.floor(Math.random() * messages.length);
     var message = messages[randomIndex]
-
+    
     container2.innerHTML = `<p>${message}</p>`
 }
 
