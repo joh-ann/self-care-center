@@ -15,7 +15,7 @@ var enterBtn = document.querySelector(".button1");
 var loginView = document.querySelector(".login-view");
 var mainView = document.querySelector(".main-view");
 var greetingMsg = document.getElementById("welcome");
-var nameReq = document.getElementById("#name-req")
+var nameReq = document.getElementById("name-req")
 
 // event listeners
 // reload home page on click
@@ -53,7 +53,8 @@ enterBtn.addEventListener("click", function(event) {
         loadMain();
         greet(enteredName);
     } else {
-        alert(`Please enter a valid name.`)
+        nameReq.style.visibility="visible"
+        // alert(`Please enter a valid name.`)
     }
 });
 
