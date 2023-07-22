@@ -16,6 +16,7 @@ var enterBtn = document.querySelector(".button1");
 var loginView = document.querySelector(".login-view");
 var mainView = document.querySelector(".main-view")
 
+
 // event listeners
 // reload home page on click
 logo.addEventListener("click", function () {
@@ -44,13 +45,12 @@ receiveMsg.addEventListener("click", function () {
   });
 
 
-
 enterBtn.addEventListener("click", function(event) {
     event.preventDefault();
     var enteredName = nameInput.value;
-
     if (enteredName !== "") {
         // greet(enteredName);
+        console.log(enteredName)
         loadMain();
     } else {
         alert(`Please enter a valid name.`)
@@ -77,3 +77,5 @@ function loadMain() {
     hideIt(loginView);
     showIt(mainView);
 }
+
+// function greet()
