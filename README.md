@@ -14,7 +14,8 @@ This is a Self Care Center app that displays a variety of positive affirmations 
 
 ### Preview of App:
 [x]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-![scc](https://github.com/joh-ann/self-care-center/assets/126308696/a348bb61-a7bf-45b2-bef3-905d85140a30)
+![scc](https://github.com/joh-ann/self-care-center/assets/126308696/7f8519e7-503b-4823-8b7a-1ff7b059cd0b)
+
 
 
 ### Context:
