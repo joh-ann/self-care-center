@@ -7,15 +7,12 @@ This is a Self Care Center app that displays a variety of positive affirmations 
 
 ### Installation Instructions:
 [x]: <> (What steps does a person have to take to get your app cloned down and running?)
-1. Install Git
-2. Clone the Repository `git clone <repository_url>`
-3. Navigate to the project directory `cd <project_directory>`
-4. Launch the page `open index.html`
+1. View on [GitHub Pages](https://joh-ann.github.io/self-care-center-solo/)
+2. Enjoy!
 
 ### Preview of App:
 [x]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 ![scc](https://github.com/joh-ann/self-care-center/assets/126308696/7f8519e7-503b-4823-8b7a-1ff7b059cd0b)
-
 
 
 ### Context:
