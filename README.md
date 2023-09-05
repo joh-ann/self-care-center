@@ -7,7 +7,7 @@ This is a Self Care Center app that displays a variety of positive affirmations 
 
 ### Installation Instructions:
 [x]: <> (What steps does a person have to take to get your app cloned down and running?)
-1. View on [GitHub Pages](https://joh-ann.github.io/self-care-center-solo/)
+1. View on [GitHub Pages](https://joh-ann.github.io/self-care-center/)
 2. Enjoy!
 
 ### Preview of App:
